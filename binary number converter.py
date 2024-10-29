@@ -1,8 +1,6 @@
 def decimal_to_binary_4bit(num):
-    # Convert to binary and format to 4 bits
     return format(num, '04b')
 
-# Get user input
 try:
     user_input = int(input("Enter a number between 0 and 15: "))
     
